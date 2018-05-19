@@ -43,7 +43,6 @@ return {
 			"armpship",
 			"armrship",
 			"armsub",
-			"armroy",
 			"armtship",
 		},
 		customparams = {
