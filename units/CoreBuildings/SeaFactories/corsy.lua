@@ -43,7 +43,7 @@ return {
 			"corpship",
 			"corrship",
 			"corsub",
-			"corroy",
+			-- "corroy",
 			"cortship",
 		},
 		customparams = {
