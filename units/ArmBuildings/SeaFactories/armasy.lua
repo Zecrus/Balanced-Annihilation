@@ -35,10 +35,11 @@ return {
 		workertime = 300,
 		yardmap = "wCCCCCCCCCCwCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCwCCCCCCCCCCw",
 		buildoptions = {
+			"armroy",
 			"armacsub",
 			"armmls",
 			-- "armanac",
-			"armsubk",
+			-- "armsubk",
 			"armserp",
 			"armaas",
 			"armcrus",
