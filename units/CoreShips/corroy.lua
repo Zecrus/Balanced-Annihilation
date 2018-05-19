@@ -141,7 +141,7 @@ return {
 				weaponvelocity = 320,
 				damage = {
 					bombers = 62,
-					default = 503,
+					default = 550,
 					fighters = 62,
 					vtol = 62,
 					subs = 5,
@@ -166,7 +166,7 @@ return {
 				noselfdamage = true,
 				predictboost = 0,
 				range = 400,
-				reloadtime = 3.9,
+				reloadtime = 3.4,
 				soundhit = "xplodep2",
 				soundstart = "torpedo1",
 				startvelocity = 80,
