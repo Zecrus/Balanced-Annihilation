@@ -211,7 +211,7 @@ return {
 				maindir = "0 -1 0",
 				maxangledif = 179,
 				onlytargetcategory = "CANBEUW UNDERWATER",
-},
+			},
 		},
 	},
 }
