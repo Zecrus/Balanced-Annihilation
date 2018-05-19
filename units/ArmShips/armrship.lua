@@ -38,7 +38,7 @@ return {
 		-- move
 		acceleration = 0.036,
 		brakerate = 0.088,
-		maxvelocity = 2.20,
+		maxvelocity = 1.80,
 		turninplace = true,
 		turninplaceanglelimit = 110,
 		turnrate = 250,
@@ -204,17 +204,17 @@ return {
 			},
 		},
 		weapons = {
-			-- [1] = {
-				-- badtargetcategory = "NOTAIR",
-				-- def = "MISSILE",
-				-- onlytargetcategory = "NOTSUB",
-			-- },
-			[2] = {
-				badtargetcategory = "NOTSUB",
-				def = "DEPTHCHARGE",
+			[1] = {
+				badtargetcategory = "NOTAIR",
+				def = "MISSILE",
+				onlytargetcategory = "NOTSUB",
+			},
+			-- [2] = {
+				-- badtargetcategory = "NOTSUB",
+				-- def = "DEPTHCHARGE",
 				-- maindir = "0 -1 0",
 				-- maxangledif = 179,
-				onlytargetcategory = "CANBEUW UNDERWATER",		
+				-- onlytargetcategory = "CANBEUW UNDERWATER",		
 			},
 		},
 	},
