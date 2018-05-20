@@ -19,7 +19,7 @@ return {
 		icontype = "sea",
 		idleautoheal = 8,
 		idletime = 900,
-		maxdamage = 635,
+		maxdamage = 1.5*635,
 		minwaterdepth = 15,
 		movementclass = "UBOAT33X3",
 		name = "Snake",
@@ -147,7 +147,7 @@ return {
 				damage = {
 					commanders = 600,
 					default = 650,
-					subs = 150,
+					subs = 225,
 				},
 				customparams = {
 					bar_model = "cortorpedo.s3o",
