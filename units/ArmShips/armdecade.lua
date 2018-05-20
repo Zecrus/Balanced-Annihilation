@@ -1,5 +1,7 @@
 return {
 	armdecade = {
+		activatewhenbuilt = true,
+		airsightdistance = 400,
 		buildangle = 16384,
 		buildcostenergy = 1400,
 		buildcostmetal = 195,
@@ -12,6 +14,8 @@ return {
 		collisionvolumetype = "CylZ",
 		corpse = "DEAD",
 		description = "Fast Assault Corvette with Anti-sub Depthcharges",
+		energymake = 0.2,
+		energyuse = 0.2,
 		explodeas = "mediumexplosiongeneric",
 		floater = true,
 		footprintx = 3,
@@ -149,6 +153,7 @@ return {
 					subs = 3,
 					vtol = 3,
 				},
+			},
 			depthcharge = {
 				areaofeffect = 12,
 				avoidfeature = false,
