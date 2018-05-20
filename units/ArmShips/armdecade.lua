@@ -28,6 +28,7 @@ return {
 		seismicsignature = 0,
 		selfdestructas = "mediumexplosiongenericSelfd",
 		sightdistance = 375,
+		sonardistance = 375,
 		waterline = 0,
 		--move
 		acceleration = 0.06,
@@ -187,7 +188,6 @@ return {
 				},
 			},
 		},
-	},
 	
 		weapons = {
 			[1] = {
