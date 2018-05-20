@@ -214,7 +214,7 @@ return {
 				stages = 8,
 				noselfdamage = true,
 				range = 800,
-				reloadtime = 0.75,
+				reloadtime = 1.5,
 				rgbcolor = {1, 0.33, 0.7},
 				soundhit = "flakhit",
 				soundhitwet = "splsmed",
