@@ -20,7 +20,7 @@ return {
 		icontype = "sea",
 		idleautoheal = 15,
 		idletime = 900,
-		maxdamage = 2190,
+		maxdamage = 1.5*2190,
 		minwaterdepth = 20,
 		movementclass = "UBOAT33X3",
 		name = "Serpent",
@@ -147,7 +147,7 @@ return {
 				weaponvelocity = 220,
 				damage = {
 					default = 1000,
-					subs = 500,
+					subs = 750,
 				},
 				customparams = {
 					bar_model = "torpedo.s3o",
