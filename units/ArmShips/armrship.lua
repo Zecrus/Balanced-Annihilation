@@ -152,12 +152,12 @@ return {
 				weapontype = "MissileLauncher",
 				weaponvelocity = 670,
 				damage = {
-					bombers = 80,
+					bombers = 1.1*80,
 					commanders = 22,
 					default = 32,
-					fighters = 80,
+					fighters = 1.1*80,
 					subs = 5,
-					vtol = 80,
+					vtol = 1.1*80,
 				},
 				customparams = {
 					bar_model = "cormissile.s3o",
