@@ -15,7 +15,7 @@ List of changes I made:
 12. Give all amphib units torpedoes
 13. Nerfed T2 sea AA
 14. Updated some descriptions
-15. Increased sub health by 50% and damage taken by 50% (so uw is better against amphib)
+15. Increased sub health by 50% and damage taken by 50% (so amphibs take 50% more damage)
 
 
 Overall Goals:
