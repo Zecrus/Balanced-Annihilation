@@ -12,7 +12,7 @@ return {
 		collisionvolumescales = "32 32 123",
 		collisionvolumetype = "CylZ",
 		corpse = "DEAD",
-		description = "Cruiser",
+		description = "Close-Range Combat Cruiser",
 		energymake = 2.2,
 		energyuse = 2.2,
 		explodeas = "largeexplosiongeneric",
