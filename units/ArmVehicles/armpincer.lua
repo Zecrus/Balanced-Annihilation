@@ -171,7 +171,7 @@ return {
 				turret = true,
 				waterweapon = true,
 				weapontype = "Cannon",
-				weaponvelocity = 225,
+				weaponvelocity = 350,
 				damage = {
 					bombers = 10,
 					default = 68,
