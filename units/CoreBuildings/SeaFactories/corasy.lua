@@ -35,11 +35,11 @@ return {
 		workertime = 300,
 		yardmap = "wCCCCCCCCCCwCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCwCCCCCCCCCCw",
 		buildoptions = {
-			"corroy",
 			"coracsub",
 			"cormls",
 			-- "corsnap",
 			-- "corshark",
+			"corroy",
 			"corssub",
 			"corarch",
 			"corcrus",
