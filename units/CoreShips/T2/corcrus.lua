@@ -35,7 +35,7 @@ return {
 		--move
 		acceleration = 0.031,
 		brakerate = 0.095,
-		maxvelocity = 2.383,
+		maxvelocity = 1.1*2.383,
 		turninplace = true,
 		turninplaceanglelimit = 110,
 		turnrate = 177,
@@ -205,7 +205,7 @@ return {
 				impulsefactor = 0,
 				name = "HighEnergyLaser",
 				noselfdamage = true,
-				range = 785,
+				range = 400,
 				reloadtime = 0.9,
 				rgbcolor = "0 1 0",
 				soundhitdry = "",
