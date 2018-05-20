@@ -20,7 +20,7 @@ return {
 		icontype = "sea",
 		idleautoheal = 15,
 		idletime = 900,
-		maxdamage = 2320,
+		maxdamage = 1.5*2320,
 		minwaterdepth = 20,
 		movementclass = "UBOAT34X4",
 		name = "Leviathan",
@@ -146,7 +146,7 @@ return {
 				weaponvelocity = 220,
 				damage = {
 					default = 1000,
-					subs = 500,
+					subs = 750,
 				},
 				customparams = {
 					bar_model = "coradvtorpedo.s3o",
