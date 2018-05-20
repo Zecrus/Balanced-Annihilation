@@ -36,7 +36,7 @@ return {
 				--move
 		acceleration = 0.034,
 		brakerate = 0.104,
-		maxvelocity = 2.60,
+		maxvelocity = 1.05*2.60,
 		turninplace = true,
 		turninplaceanglelimit = 110,
 		turnrate = 180,
