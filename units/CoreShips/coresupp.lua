@@ -191,8 +191,8 @@ return {
 				weaponvelocity = 190,
 				damage = {
 					subs = 60,
-					default = 25,
-					commanders = 25,
+					default = 60,
+					commanders = 60,
 				},
 			},
 		},
