@@ -7,7 +7,7 @@ List of changes I made:
 4. Slight damage nerf to arm corvette, damage buff to core corvette, so that they are more even
 5. Remove aa from scout, lower cost slightly
 6. Lower cost of T2 shipyard (-500m)
-7. Buff destroyer so that its useful in T2
+7. Buff destroyer so that its useful in T2 (depthcharge replaced with torp)
 8. Lower cruiser range, increase its health, lower its cost
 9. Lower battleship health
 10. Remove pirahna/shark
@@ -15,6 +15,8 @@ List of changes I made:
 12. Give all amphib units torpedoes
 13. Nerfed T2 sea AA
 14. Updated some descriptions
+15. Increased sub health by 50% and damage taken by 50% (so uw is better against amphib)
+
 
 Overall Goals:
 1. Have AA and anti-sub naturally incorporated into other sea units
