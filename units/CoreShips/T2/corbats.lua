@@ -21,7 +21,7 @@ return {
 		icontype = "sea",
 		idleautoheal = 5,
 		idletime = 1800,
-		maxdamage = 16685,
+		maxdamage = 0.8*16685,
 		minwaterdepth = 15,
 		movementclass = "DBOAT67X7",
 		name = "Warlord",
