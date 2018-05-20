@@ -11,7 +11,7 @@ return {
 		collisionvolumescales = "24 24 67",
 		collisionvolumetype = "CylZ",
 		corpse = "DEAD",
-		description = "Fast Assault Corvette",
+		description = "Fast Assault Corvette with Anti-sub Depthcharges",
 		explodeas = "mediumexplosiongeneric",
 		floater = true,
 		footprintx = 3,
