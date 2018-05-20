@@ -131,7 +131,7 @@ return {
 				name = "AdvTorpedo",
 				noselfdamage = true,
 				range = 690,
-				reloadtime = 2.5,
+				reloadtime = 4,
 				soundhit = "xplodep1",
 				soundstart = "torpedo1",
 				startvelocity = 150,
@@ -145,8 +145,8 @@ return {
 				weapontype = "TorpedoLauncher",
 				weaponvelocity = 220,
 				damage = {
-					default = 500,
-					subs = 250,
+					default = 1000,
+					subs = 500,
 				},
 				customparams = {
 					bar_model = "coradvtorpedo.s3o",
