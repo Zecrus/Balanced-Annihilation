@@ -201,7 +201,7 @@ return {
 			},
 			[2] = {
 				badtargetcategory = "HOVER NOTSHIP",
-				def = "TORPEDO",
+				def = "DEPTHCHARGE",
 				onlytargetcategory = "NOTHOVER",
 			},
 		},
