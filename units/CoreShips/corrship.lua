@@ -14,7 +14,7 @@ return {
 		collisionvolumescales = "28 28 71",
 		collisionvolumetype = "CylZ",
 		corpse = "DEAD",
-		description = "Support Frigate (Depthcharge)",
+		description = "Support Frigate (Missiles)",
 		energymake = 0.2,
 		energyuse = 0.2,
 		explodeas = "mediumExplosionGeneric",
