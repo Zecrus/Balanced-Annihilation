@@ -134,7 +134,7 @@ return {
 				name = "flash",
 				noselfdamage = true,
 				range = 280,
-				reloadtime = 0.4,
+				reloadtime = 0.38,
 				rgbcolor = "1 0.95 0.4",
 				size = 1.75,
 				soundhitwet = "splshbig",
