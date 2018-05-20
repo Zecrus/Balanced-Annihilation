@@ -1,5 +1,7 @@
 return {
 	coresupp = {
+		activatewhenbuilt = true,
+		airsightdistance = 400,
 		buildangle = 16384,
 		buildcostenergy = 1400,
 		buildcostmetal = 165,
@@ -12,7 +14,8 @@ return {
 		collisionvolumetype = "CylZ",
 		corpse = "DEAD",
 		description = "Fast Assault Corvette with anti-sub depthcharges",
-		energymake = 3,
+		energymake = 3.2,
+		energyuse = 0.2,
 		explodeas = "mediumexplosiongeneric",
 		floater = true,
 		footprintx = 3,
