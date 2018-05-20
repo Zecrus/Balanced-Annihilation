@@ -28,7 +28,8 @@ return {
 		objectname = "CORESUPP",
 		seismicsignature = 0,
 		selfdestructas = "mediumexplosiongenericSelfd",
-		sightdistance = 320,
+		sightdistance = 375,
+		sonardistance = 375,
 		waterline = 0,
 		--move
 		acceleration = 0.07,
