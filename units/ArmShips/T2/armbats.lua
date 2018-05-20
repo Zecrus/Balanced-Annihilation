@@ -21,7 +21,7 @@ return {
 		icontype = "sea",
 		idleautoheal = 5,
 		idletime = 1800,
-		maxdamage = 15810,
+		maxdamage = 0.8*15810,
 		minwaterdepth = 15,
 		movementclass = "DBOAT66X6",
 		name = "Millennium",
