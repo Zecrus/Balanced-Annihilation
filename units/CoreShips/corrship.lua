@@ -24,7 +24,7 @@ return {
 		icontype = "sea",
 		idleautoheal = 2,
 		idletime = 900,
-		maxdamage = 1320,
+		maxdamage = 1200,
 		minwaterdepth = 6,
 		movementclass = "BOAT43X3",
 		name = "Crusher",
@@ -41,7 +41,7 @@ return {
 		turninplaceanglelimit = 110,
 		turnrate = 240,
 		customparams = {
-			
+
 		},
 		featuredefs = {
 			dead = {
@@ -84,8 +84,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 			},
@@ -150,12 +150,12 @@ return {
 				weapontype = "MissileLauncher",
 				weaponvelocity = 670,
 				damage = {
-					bombers = 1.1*80,
-					commanders = 22,
-					default = 32,
-					fighters = 1.1*80,
+					bombers = 95,
+					commanders = 25,
+					default = 35,
+					fighters = 95,
 					subs = 5,
-					vtol = 1.1*80,
+					vtol = 95,
 				},
 				customparams = {
 					bar_model = "cormissile.s3o",

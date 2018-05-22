@@ -69,8 +69,9 @@ return {
 			[19] = "armfido",
 			[20] = "armmav",
 			[21] = "armcs",
-			[22] = "armroy",
-			-- [23] = "seaplatform",
+			[22] = "armdecade",
+			[23] = "armpship",
+			-- [24] = "seaplatform",
 		},
 		customparams = {
 			arm_tank = "1",
@@ -120,8 +121,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2-builder",
 				"deathceg3-builder",
 				"deathceg4-builder",

@@ -39,19 +39,19 @@ return {
 		--move
 		acceleration = 0.0484,
 		brakerate = 0.0872,
-		maxvelocity = 2.18,	
+		maxvelocity = 2.18,
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turnrate = 270,
 		--end move
 		buildoptions = {
 			"armvp",
-			"armap",
 			"armlab",
 			"armeyes",
 			"armdl",
 			"armdrag",
 			"armclaw",
+			"armguard",
 			"armuwmex",
 			"armtide",
 			"armgeo",
@@ -74,7 +74,7 @@ return {
 			--"seaplatform",
 		},
 		customparams = {
-			
+
 			area_mex_def = "armuwmex",
 		},
 		featuredefs = {
@@ -116,8 +116,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2-builder",
 				"deathceg3-builder",
 				"deathceg4-builder",

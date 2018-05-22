@@ -25,3 +25,12 @@ Overall Goals:
 4. Have T2 sea involve evolving fleets, instead of spamming 1 unit
 5. Have land be able to interact with sea through amphib units
 6. Make sure that sea doesn't have to build a ton of niche units as insurance against different angles of attack
+
+Changes in v6:
+1. Increased Core corvette cost by 10m
+2. Decreased Arm and Core assault frigate movement by 5%, range by 10
+3. Decreased Arm and Core sub costs by 20%, increased movement by 10%, decreased damage by 10%
+4. Added Guardian/Punisher to T1 sea con buildlist, removed land airlab from lists
+5. Improved Arm and Core Gun Platform health and dps by 10%
+6. Increased Arm and Core support ship damage by 10%, reduced health by 10%
+7. Removed destroyer from consul and freaker buildmenu, replaced with corvette and assault frigate

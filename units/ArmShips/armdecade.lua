@@ -37,13 +37,13 @@ return {
 		--move
 		acceleration = 0.06,
 		brakerate = 0.21,
-		maxvelocity = 3.15,		
+		maxvelocity = 3.15,
 		turninplace = true,
 		turninplaceanglelimit = 110,
 		turnrate = 405,
 		--end move
 		customparams = {
-			
+
 		},
 		featuredefs = {
 			dead = {
@@ -87,8 +87,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",
@@ -172,7 +172,7 @@ return {
 				name = "Light Depthcharge",
 				noselfdamage = true,
 				predictboost = 0,
-				range = 300,
+				range = 280,
 				reloadtime = 1.5,
 				soundhit = "xplodep2",
 				soundstart = "torpedo1",
@@ -193,7 +193,7 @@ return {
 				},
 			},
 		},
-	
+
 		weapons = {
 			[1] = {
 				def = "EMG",

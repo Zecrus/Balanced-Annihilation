@@ -4,7 +4,7 @@ return {
 		airsightdistance = 400,
 		buildangle = 16384,
 		buildcostenergy = 1400,
-		buildcostmetal = 165,
+		buildcostmetal = 175,
 		buildpic = "CORESUPP.DDS",
 		buildtime = 2475,
 		canmove = true,
@@ -37,7 +37,7 @@ return {
 		--move
 		acceleration = 0.07,
 		brakerate = 0.21,
-		maxvelocity = 3.30,		
+		maxvelocity = 3.30,
 		turninplace = true,
 		turninplaceanglelimit = 110,
 		turnrate = 425,
@@ -87,8 +87,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",

@@ -35,15 +35,15 @@ return {
 		turnrate = 120,
 		waterline = 0,
 		--move
-		acceleration = 0.040,
-		brakerate = 0.098,
-		maxvelocity = 2.45,
+		acceleration = 0.95*0.040,
+		brakerate = 0.95*0.098,
+		maxvelocity = 0.95*2.45,
 		turninplace = true,
 		turninplaceanglelimit = 110,
-		turnrate = 255,
+		turnrate = 0.95*255,
 		--end move
 		customparams = {
-			
+
 		},
 		featuredefs = {
 			dead = {
@@ -86,8 +86,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 			},
@@ -131,7 +131,7 @@ return {
 				name = "LightCannon",
 				noselfdamage = true,
 				predictboost = 0.4,
-				range = 480,
+				range = 470,
 				reloadtime = 0.9,
 				soundhit = "xplomed3",
 				soundhitwet = "splshbig",

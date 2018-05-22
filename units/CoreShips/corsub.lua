@@ -2,10 +2,10 @@ return {
 	corsub = {
 		activatewhenbuilt = true,
 		autoheal = 2,
-		buildcostenergy = 3300,
-		buildcostmetal = 580,
+		buildcostenergy = 2700,
+		buildcostmetal = 480,
 		buildpic = "CORSUB.DDS",
-		buildtime = 6530,
+		buildtime = 5500,
 		canmove = true,
 		category = "ALL UNDERWATER MOBILE WEAPON NOTLAND NOTAIR NOTHOVER",
 		collisionvolumeoffsets = "0 -4 0",
@@ -32,14 +32,14 @@ return {
 		upright = true,
 		waterline = 30,
 		--move
-		brakerate =  0.107,
-		acceleration = 0.035,
-		maxvelocity = 2.15,
+		brakerate =  1.1*0.107,
+		acceleration = 1.1*0.035,
+		maxvelocity = 1.1*2.15,
 		turninplace = true,
 		turninplaceanglelimit = 90,
-		turnrate = 307,	
-		maxreversevelocity = 0.40 * 2.15,
-		--end move	
+		turnrate = 1.1*307,
+		maxreversevelocity = 1.1*0.40 * 2.15,
+		--end move
 		customparams = {
 
 		},
@@ -84,8 +84,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",
@@ -145,9 +145,9 @@ return {
 				weapontype = "TorpedoLauncher",
 				weaponvelocity = 160,
 				damage = {
-					commanders = 600,
-					default = 650,
-					subs = 225,
+					commanders = 0.9*600,
+					default = 0.9*650,
+					subs = 0.9*225,
 				},
 				customparams = {
 					bar_model = "cortorpedo.s3o",

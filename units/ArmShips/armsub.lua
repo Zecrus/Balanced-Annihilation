@@ -2,10 +2,10 @@ return {
 	armsub = {
 		activatewhenbuilt = true,
 		autoheal = 2,
-		buildcostenergy = 3200,
-		buildcostmetal = 550,
+		buildcostenergy = 2700,
+		buildcostmetal = 450,
 		buildpic = "ARMSUB.DDS",
-		buildtime = 6600,
+		buildtime = 5400,
 		canmove = true,
 		category = "UNDERWATER ALL MOBILE WEAPON NOTLAND NOTAIR NOTHOVER",
 		collisionvolumeoffsets = "0 -4 0",
@@ -32,16 +32,16 @@ return {
 		upright = true,
 		waterline = 30,
 		--move
-		brakerate =  0.105,
-		acceleration = 0.035,
-		maxvelocity = 2.10,
+		brakerate =  1.1*0.105,
+		acceleration = 1.1*0.035,
+		maxvelocity = 1.1*2.10,
 		turninplace = true,
 		turninplaceanglelimit = 90,
-		turnrate = 320,	
-		maxreversevelocity = 2.10*0.40,
+		turnrate = 1.1*320,
+		maxreversevelocity = 1.1*2.10*0.40,
 		--end move
 		customparams = {
-			
+
 		},
 		featuredefs = {
 			dead = {
@@ -84,8 +84,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",
@@ -145,9 +145,9 @@ return {
 				weapontype = "TorpedoLauncher",
 				weaponvelocity = 160,
 				damage = {
-					commanders = 600,
-					default = 650,
-					subs = 225,
+					commanders = 0.9*600,
+					default = 0.9*650,
+					subs = 0.9*225,
 				},
 				customparams = {
 					bar_model = "torpedo.s3o",

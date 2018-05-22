@@ -65,8 +65,9 @@ return {
 			[19] = "corpyro",
 			[20] = "coramph",
 			[21] = "corcs",
-			[22] = "corroy",
-			-- [23] = "seaplatform",
+			[22] = "coresupp",
+			[23] = "corpship",
+			-- [24] = "seaplatform",
 		},
 		customparams = {
 			techlevel = 2,
@@ -115,8 +116,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2-builder",
 				"deathceg3-builder",
 				"deathceg4-builder",

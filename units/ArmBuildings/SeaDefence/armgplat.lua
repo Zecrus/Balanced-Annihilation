@@ -23,7 +23,7 @@ return {
 		icontype = "building",
 		idleautoheal = 5,
 		idletime = 1800,
-		maxdamage = 680,
+		maxdamage = 750,
 		minwaterdepth = 1,
 		name = "Gun Platform",
 		nochasecategory = "MOBILE",
@@ -58,8 +58,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",
@@ -127,7 +127,7 @@ return {
 				stages = 20,
 				damage = {
 					bombers = 5,
-					default = 22.5,
+					default = 25,
 					fighters = 5,
 					subs = 5,
 					vtol = 5,

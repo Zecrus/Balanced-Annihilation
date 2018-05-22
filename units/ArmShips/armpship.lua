@@ -34,15 +34,15 @@ return {
 		sightdistance = 500,
 		waterline = 0,
 		--move
-		acceleration = 0.040,
-		brakerate = 0.098,
-		maxvelocity = 2.45,
+		acceleration = 0.95*0.040,
+		brakerate = 0.95*0.098,
+		maxvelocity = 0.95*2.45,
 		turninplace = true,
 		turninplaceanglelimit = 110,
-		turnrate = 285,
+		turnrate = 0.95*285,
 		--end move
 		customparams = {
-			
+
 		},
 		featuredefs = {
 			dead = {
@@ -85,8 +85,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 			},
@@ -128,7 +128,7 @@ return {
 				impulsefactor = 0.123,
 				name = "PlasmaCannon",
 				noselfdamage = true,
-				range = 470,
+				range = 460,
 				reloadtime = 1.75,
 				predictboost = 0.4,
 				soundhit = "xplomed3",

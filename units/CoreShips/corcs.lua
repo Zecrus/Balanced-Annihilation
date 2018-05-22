@@ -39,27 +39,27 @@ return {
 		--move
 		acceleration = 0.044,
 		brakerate = 0.08,
-		maxvelocity = 2.00,	
+		maxvelocity = 2.00,
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turnrate = 261,
 		--end move
 		buildoptions = {
-            "corvp",
-            "corap",
-            "corlab",
+      "corvp",
+      "corlab",
 			"coreyes",
 			"cordl",
 			"cordrag",
 			"cormaw",
+			"corpun",
 			"coruwmex",
-            "cortide",
+      "cortide",
 			"corgeo",
 			"corfmkr",
 			"coruwms",
 			"coruwes",
-            "corsy",
-            "corasy",
+      "corsy",
+      "corasy",
 			"cornanotcplat",
 			"corfhp",
 			"coramsub",
@@ -70,7 +70,7 @@ return {
 			"cortl",
 			"corgplat",
 			"corfrt",
-            "corfhlt",
+      "corfhlt",
 			-- "seaplatform",
 		},
 		customparams = {
@@ -116,8 +116,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2-builder",
 				"deathceg3-builder",
 				"deathceg4-builder",
