@@ -2,7 +2,7 @@ return {
   name='Balanced Annihilation Sea Experiment',
   description='Balanced Annihilation Sea Experiment',
   shortname='BA',
-  version='5',
+  version='6',
   mutator='Official',
   game='Balanced Annihilation Sea Experiment',
   shortGame='BA',
