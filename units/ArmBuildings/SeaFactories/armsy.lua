@@ -32,7 +32,7 @@ return {
 		sightdistance = 340,
 		terraformspeed = 500,
 		waterline = 26,
-		workertime = 165,
+		workertime = 140,
 		yardmap = "oyyyyyyoyccccccyyccccccyyccccccyyccccccyyccccccyyccccccyoyyyyyyo",
 		buildoptions = {
 			-- "armroy",
@@ -70,12 +70,12 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			 pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			 pieceExplosionGenerators = {
 				"deathceg2",
  				"deathceg3",
  				"deathceg4",
- 			}, 
+ 			},
 			explosiongenerators = {
 				[1] = "custom:YellowLight",
 			},

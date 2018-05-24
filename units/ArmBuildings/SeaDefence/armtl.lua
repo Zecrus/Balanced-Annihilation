@@ -4,10 +4,10 @@ return {
 		activatewhenbuilt = true,
 		brakerate = 0,
 		buildangle = 16384,
-		buildcostenergy = 1260*1.35,
-		buildcostmetal = 140*1.35,
+		buildcostenergy = 2125,
+		buildcostmetal = 240,
 		buildpic = "ARMTL.DDS",
-		buildtime = 4680,
+		buildtime = 7000,
 		canrepeat = false,
 		category = "ALL NOTLAND WEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE",
 		corpse = "DEAD",
@@ -20,7 +20,7 @@ return {
 		icontype = "building",
 		idleautoheal = 5,
 		idletime = 1800,
-		maxdamage = 1200*1.15,
+		maxdamage = 1400,
 		minwaterdepth = 12,
 		name = "Harpoon",
 		objectname = "ARMTL",
@@ -55,8 +55,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",
@@ -115,8 +115,8 @@ return {
 				weapontype = "TorpedoLauncher",
 				weaponvelocity = 280,
 				damage = {
-					commanders = 300*1.25,
-					default = 165*1.35*1.25,
+					commanders = 375,
+					default = 280,
 				},
 				customparams = {
 					bar_model = "cortorpedo.s3o",

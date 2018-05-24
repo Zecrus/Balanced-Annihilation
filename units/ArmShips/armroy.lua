@@ -42,7 +42,7 @@ return {
 		turnrate = 196,
 		--end move
 		customparams = {
-			
+
 		},
 		featuredefs = {
 			dead = {
@@ -83,8 +83,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",
@@ -166,7 +166,7 @@ return {
 				noselfdamage = true,
 				predictboost = 0,
 				range = 400,
-				reloadtime = 3.0,
+				reloadtime = 2.5,
 				soundhit = "xplodep2",
 				soundstart = "torpedo1",
 				startvelocity = 80,
@@ -180,11 +180,11 @@ return {
 				weapontype = "TorpedoLauncher",
 				weaponvelocity = 140,
 				damage = {
-					default = 300,
-					subs = 1.5*270,
-					commanders = 187,
-					lboats = 187,
-					hvyboats = 187,
+					default = 250,
+					subs = 350,
+					commanders = 170,
+					lboats = 170,
+					hvyboats = 170,
 				},
 				customparams = {
 					bar_model = "cortorpedo.s3o",

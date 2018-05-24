@@ -7,13 +7,13 @@ List of changes I made:
 4. Slight damage nerf to arm corvette, damage buff to core corvette, so that they are more even
 5. Remove aa from scout, lower cost slightly
 6. Lower cost of T2 shipyard (-500m)
-7. Buff destroyer so that its useful in T2 (depthcharge replaced with torp)
+7. Buff destroyer so that its useful in T2 (depthcharge replaced with torp), slight plasma damage increase
 8. Lower cruiser range, increase its health, lower its cost
-9. Lower battleship health
+9. Lower battleship health ~25%
 10. Remove pirahna/shark
-11. Increase reload time for serpent/leviathan
+11. Increase reload time for serpent/leviathan to 4, damage to 1000
 12. Give all amphib units torpedoes
-13. Nerfed T2 sea AA
+13. Nerfed T2 sea AA ships, flak has double reload now
 14. Updated some descriptions
 15. Increased sub health by 50% and damage taken by 50% (so amphibs take 50% more damage)
 
@@ -34,3 +34,13 @@ Changes in v6:
 5. Improved Arm and Core Gun Platform health and dps by 10%
 6. Increased Arm and Core support ship damage by 10%, reduced health by 10%
 7. Removed destroyer from consul and freaker buildmenu, replaced with corvette and assault frigate
+
+Changes in v7
+1. Increase torp launcher m/e cost by 25%, buildtime by 50%
+2. Decrease shipyard bp 165->140
+3. Improve comm uw laser range 260->300, range same as land now.  
+4. Floating radar cost 130m->110m, sonar range 1200->900
+5. Arm destroyer torpedo has lower cooldown, lower damage (same # of shots to take down T1 sub)
+6. Core destroyer torpedo damage against subs buffed (takes 2 shots to take down T1 sub instead of 3)
+7. Reduced T1 sub damage ~10%, should kill T1 units in same # of shots but takes 1 more shot for comm and T2
+8. Added sonar range 500 to advanced torpedo launchers

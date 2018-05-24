@@ -5,7 +5,7 @@ return {
 		brakerate = 0,
 		buildangle = 16384,
 		buildcostenergy = 1000,
-		buildcostmetal = 130,
+		buildcostmetal = 110,
 		buildpic = "CORFRAD.DDS",
 		buildtime = 1800,
 		canattack = false,
@@ -32,7 +32,7 @@ return {
 		objectname = "CORFRAD",
 		onoffable = true,
 		radardistance = 2100,
-		sonardistance = 1200,
+		sonardistance = 900,
 		radaremitheight = 72,
 		seismicsignature = 0,
 		selfdestructas = "mediumBuildingExplosionGenericSelfd",
@@ -64,8 +64,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 			},

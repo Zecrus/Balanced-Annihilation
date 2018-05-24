@@ -83,8 +83,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",
@@ -180,11 +180,11 @@ return {
 				weapontype = "TorpedoLauncher",
 				weaponvelocity = 140,
 				damage = {
-					default = 1.5*212,
-					subs = 1.5*283,
-					commanders = 212,
-					lboats = 212,
-					hvyboats = 212,
+					default = 320,
+					subs = 520,
+					commanders = 210,
+					lboats = 210,
+					hvyboats = 210,
 				},
 				customparams = {
 					bar_model = "cortorpedo.s3o",

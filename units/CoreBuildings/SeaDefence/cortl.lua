@@ -4,10 +4,10 @@ return {
 		activatewhenbuilt = true,
 		brakerate = 0,
 		buildangle = 16384,
-		buildcostenergy = 1500*1.35,
-		buildcostmetal = 140*1.35,
+		buildcostenergy = 2550,
+		buildcostmetal = 250,
 		buildpic = "CORTL.DDS",
-		buildtime = 4700,
+		buildtime = 7000,
 		canrepeat = false,
 		category = "ALL NOTLAND WEAPON NOTSHIP NOTSUB SPECIAL NOTAIR NOTHOVER SURFACE",
 		corpse = "DEAD",
@@ -20,7 +20,7 @@ return {
 		icontype = "building",
 		idleautoheal = 5,
 		idletime = 1800,
-		maxdamage = 1330*1.15,
+		maxdamage = 1550,
 		maxslope = 10,
 		minwaterdepth = 12,
 		name = "Urchin",
@@ -56,8 +56,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",
@@ -116,8 +116,8 @@ return {
 				weapontype = "TorpedoLauncher",
 				weaponvelocity = 280,
 				damage = {
-					commanders = 280*1.25,
-					default = 150*1.35*1.25,
+					commanders = 350,
+					default = 260,
 				},
 				customparams = {
 					bar_model = "cortorpedo.s3o",

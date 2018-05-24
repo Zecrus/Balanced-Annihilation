@@ -161,11 +161,11 @@ tablearmcom = {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			 pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			 pieceExplosionGenerators = {
  				"deathceg3",
  				"deathceg4",
- 			}, 
+ 			},
 			explosiongenerators = {
 				[1] = "custom:com_sea_laser_bubbles",
 				[2] = "custom:barrelshot-medium",
@@ -298,7 +298,7 @@ tablearmcom = {
 				laserflaresize = 7,
 				name = "J7NSLaser",
 				noselfdamage = true,
-				range = 260,
+				range = 300,
 				reloadtime = 1,
 				rgbcolor = "0.2 0.2 0.6",
 				rgbcolor2 = "0.2 0.2 0.2",
@@ -477,7 +477,7 @@ for i = 23,29 do
 			def = "REPULSOR"..tostring(i-22),
 			}
 end
-	
+
 tablearmcom.weapons[30] ={
 				def = "DISINTEGRATOR",
 				onlytargetcategory = "NOTSUB",
@@ -494,6 +494,3 @@ end
 
 end
 return { armcom = deepcopy(tablearmcom) }
-
-
-

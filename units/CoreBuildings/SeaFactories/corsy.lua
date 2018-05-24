@@ -32,7 +32,7 @@ return {
 		sightdistance = 340,
 		terraformspeed = 500,
 		waterline = 33,
-		workertime = 165,
+		workertime = 140,
 		yardmap = "oyyyyyyoyccccccyyccccccyyccccccyyccccccyyccccccyyccccccyoyyyyyyo",
 		buildoptions = {
 			"corcs",
@@ -72,11 +72,11 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			 pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			 pieceExplosionGenerators = {
  				"deathceg3",
  				"deathceg4",
- 			}, 
+ 			},
 			explosiongenerators = {
 				[1] = "custom:WhiteLight",
 			},

@@ -27,6 +27,7 @@ return {
 		seismicsignature = 0,
 		selfdestructas = "BIG_UNIT",
 		sightdistance = 585,
+		sonardistance = 500,
 		waterline = 30,
 		yardmap = "oooooooooooooooo",
 		customparams = {
@@ -55,8 +56,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",
