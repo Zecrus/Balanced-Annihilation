@@ -40,14 +40,14 @@ return {
 			-- "corsnap",
 			-- "corshark",
 			"corroy",
+			"corcrus",
 			"corssub",
 			"corarch",
-			"corcrus",
 			-- "corhal",
 			-- "corsok",
+			"cormship",
 			"corbats",
 			-- "cormh",
-			"cormship",
 			"corblackhy",
 			"corcarry",
 			-- "corthovr",
@@ -80,11 +80,11 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			 pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			 pieceExplosionGenerators = {
  				"deathceg3",
  				"deathceg4",
- 			}, 
+ 			},
 			explosiongenerators = {
 				[1] = "custom:WhiteLight",
 			},

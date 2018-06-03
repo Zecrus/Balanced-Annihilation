@@ -34,7 +34,6 @@ return {
 			bar_waterline = 2,
 			techlevel = 2,
 			removewait = true,
-			removestop = true,
 		},
 		featuredefs = {
 			dead = {

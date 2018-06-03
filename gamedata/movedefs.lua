@@ -9,9 +9,9 @@ local moveDatas = {
 		maxslope = 36,
 		maxwaterdepth = 5000,
 		maxwaterslope = 50,
-		
+
 	},
-	
+
 	COMMANDERKBOT = {
 		crushstrength = 50,
 		depthModParams = {
@@ -27,7 +27,7 @@ local moveDatas = {
 		maxwaterdepth = 5000,
 		maxwaterslope = 50,
 	},
-	
+
 	AKBOTBOMB2 = {
 		crushstrength = 50,
 		depthmod = 0,
@@ -39,18 +39,24 @@ local moveDatas = {
 		depthModParams = {
 			constantCoeff = 1.5,
 		},
-		
+
 	},
 	ANT = {
 		footprintX = 1,
 		footprintZ = 1,
 		maxWaterDepth = 2,
 		crushStrength = 0,
-		speedModClass = 1, -- 0 = tank, 1 = kbot, 2 = hover, 3 = ship 
+		speedModClass = 1, -- 0 = tank, 1 = kbot, 2 = hover, 3 = ship
 	},
 	ATANK3 = {
 		crushstrength = 30,
-		depthmod = 0,
+		depthModParams = {
+			minHeight = 0,
+			maxScale = 1.5,
+			quadraticCoeff = (9.9/22090)/2,
+			linearCoeff = (0.1/470)/2,
+			constantCoeff = 1,
+			},
 		footprintx = 3,
 		footprintz = 3,
 		maxslope = 36,
@@ -64,7 +70,7 @@ local moveDatas = {
 		footprintz = 3,
 		minwaterdepth = 8,
 	},
-	
+
 	BOAT42X2 = {
 		crushstrength = 9,
 		footprintx = 2,
@@ -77,7 +83,7 @@ local moveDatas = {
 		footprintz = 3,
 		minwaterdepth = 8,
 	},
-	
+
 	BOAT44X4 = {
 		crushstrength = 9,
 		footprintx = 4,
@@ -90,28 +96,28 @@ local moveDatas = {
 		footprintz = 5,
 		minwaterdepth = 8,
 	},
-	
+
 	BOAT46X6 = {
 		crushstrength = 9,
 		footprintx = 6,
 		footprintz = 6,
 		minwaterdepth = 8,
 	},
-	
+
 	BOAT47X7 = {
 		crushstrength = 9,
 		footprintx = 7,
 		footprintz = 7,
 		minwaterdepth = 8,
 	},
-	
+
 	BOAT5 = {
 		crushstrength = 16,
 		footprintx = 4,
 		footprintz = 4,
 		minwaterdepth = 10,
 	},
-	
+
 	BOAT53X3 = {
 		crushstrength = 16,
 		footprintx = 3,
@@ -130,14 +136,14 @@ local moveDatas = {
 		footprintz = 5,
 		minwaterdepth = 10,
 	},
-	
+
 	BOAT56X6 = {
 		crushstrength = 16,
 		footprintx = 6,
 		footprintz = 6,
 		minwaterdepth = 10,
 	},
-	--[[ 
+	--[[
 	DBOAT3 = {
 		crushstrength = 30,
 		footprintx = 3,
@@ -153,7 +159,7 @@ local moveDatas = {
 		maxwaterslope = 255,
 		maxWaterDepth = 255,
 		minwaterdepth = 15,
-		speedModClass = 2, -- 0 = tank, 1 = kbot, 2 = hover, 3 = ship 
+		speedModClass = 2, -- 0 = tank, 1 = kbot, 2 = hover, 3 = ship
 	},
 	DBOAT6 = {
 		crushstrength = 252,
@@ -161,7 +167,7 @@ local moveDatas = {
 		footprintz = 6,
 		minwaterdepth = 15,
 	},
-	
+
 	DBOAT65X5 = {
 		crushstrength = 252,
 		footprintx = 5,
@@ -180,7 +186,7 @@ local moveDatas = {
 		footprintz = 7,
 		minwaterdepth = 15,
 	},
-	
+
 	DBOAT68X8 = {
 		crushstrength = 252,
 		footprintx = 8,
@@ -194,15 +200,15 @@ local moveDatas = {
 		footprintz = 9,
 		minwaterdepth = 15,
 	},
-	
+
 	DBOAT610X10 = {
 		crushstrength = 252,
 		footprintx = 10,
 		footprintz = 10,
 		minwaterdepth = 15,
 	},
-	
-	
+
+
 	HAKBOT4 = {
 		crushstrength = 252,
 		depthmod = 0,
@@ -334,7 +340,7 @@ local moveDatas = {
 			minHeight = 4,
 			linearCoeff = 0.03,
 			maxValue = 0.7,
-		}	
+		}
 	},
 	KBOT12X2 = {
 		crushstrength = 5,
@@ -346,7 +352,7 @@ local moveDatas = {
 			minHeight = 4,
 			linearCoeff = 0.03,
 			maxValue = 0.7,
-		}	
+		}
 	},
     KBOT2 = {
         crushstrength = 10,
@@ -426,7 +432,7 @@ local moveDatas = {
 		maxwaterdepth = 5000,
 		maxwaterslope = 30,
 	},
-	
+
 	-- Subs
 	UBOAT3 = {
 		footprintx = 2,
@@ -442,7 +448,7 @@ local moveDatas = {
 		crushstrength = 5,
 		subMarine = 1,
 	},
-	
+
 	UBOAT33X3 = {
 		footprintx = 3,
 		footprintz = 3,
@@ -450,7 +456,7 @@ local moveDatas = {
 		crushstrength = 5,
 		subMarine = 1,
 	},
-	
+
 	UBOAT34X4 = {
 		footprintx = 4,
 		footprintz = 4,
@@ -458,7 +464,7 @@ local moveDatas = {
 		crushstrength = 5,
 		subMarine = 1,
 	},
-	
+
 	UBOAT35X5 = {
 		footprintx = 5,
 		footprintz = 5,
@@ -480,7 +486,7 @@ local moveDatas = {
 		crushstrength = 5,
 		subMarine = 1,
 	},
-	
+
 
 	--[[
 	UBOAT4 = {
@@ -580,4 +586,3 @@ for moveName, moveData in pairs(moveDatas) do
 end
 
 return defs
-

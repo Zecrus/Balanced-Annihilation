@@ -28,6 +28,7 @@ return {
 		nochasecategory = "MOBILE",
 		objectname = "CORSJAM",
 		onoffable = true,
+		radardistance = 1500,
 		radardistancejam = 900,
 		seismicsignature = 0,
 		selfdestructas = "mediumexplosiongenericSelfd",
@@ -35,7 +36,7 @@ return {
 				--move
 		acceleration = 0.068,
 		brakerate = 0.081,
-		maxvelocity = 2.043,	
+		maxvelocity = 2.043,
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turnrate = 256,
@@ -85,8 +86,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",

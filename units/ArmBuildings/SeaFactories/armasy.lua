@@ -40,13 +40,13 @@ return {
 			-- "armanac",
 			-- "armsubk",
 			"armroy",
+			"armcrus",
 			"armserp",
 			"armaas",
-			"armcrus",
 			-- "armlun",
+			"armmship",
 			"armbats",
 			-- "armmh",
-			"armmship",
 			"armepoch",
 			"armcarry",
 			-- "armthovr",
@@ -78,8 +78,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",

@@ -28,6 +28,7 @@ return {
 		nochasecategory = "MOBILE",
 		objectname = "ARMSJAM",
 		onoffable = true,
+		radardistance = 1500,
 		radardistancejam = 980,
 		seismicsignature = 0,
 		selfdestructas = "mediumexplosiongenericSelfd",
@@ -36,7 +37,7 @@ return {
 				--move
 		acceleration = 0.073,
 		brakerate = 0.88,
-		maxvelocity = 2.20,	
+		maxvelocity = 2.20,
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turnrate = 270,
@@ -85,8 +86,8 @@ return {
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 				"deathceg4",

@@ -44,3 +44,12 @@ Changes in v7
 6. Core destroyer torpedo damage against subs buffed (takes 2 shots to take down T1 sub instead of 3)
 7. Reduced T1 sub damage ~10%, should kill T1 units in same # of shots but takes 1 more shot for comm and T2
 8. Added sonar range 500 to advanced torpedo launchers
+
+Changes in v8
+1. Changed mexes to old underwater version
+2. Reverted core corvette range (300->280)
+3. Reduced speed of amphib units when underwater by 33%
+4. Reduced armpincer health by 8% (so its better balanced compared to core garpike)
+5. Removed hovercon from T1 shipyard
+6. Rearranged T2 shipyard build order
+Added radar to T2 jammer ship

@@ -22,7 +22,7 @@ return {
 		idleautoheal = 5,
 		idletime = 1800,
 		leavetracks = true,
-		maxdamage = 1205,
+		maxdamage = 1100,
 		maxslope = 15,
 		maxvelocity = 2.25,
 		maxwaterdepth = 125,
@@ -91,8 +91,8 @@ return {
 				world = "all",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 			},

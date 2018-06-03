@@ -1,24 +1,24 @@
-	armseamex = {
+return {
+	armuwmex = {
 		acceleration = 0,
 		activatewhenbuilt = true,
 		brakerate = 0,
 		buildangle = 8192,
-		buildcostenergy = 500,
+		buildcostenergy = 700,
 		buildcostmetal = 60,
+		buildinggrounddecaldecayspeed = 30,
+		buildinggrounddecalsizex = 5,
+		buildinggrounddecalsizey = 5,
+		buildinggrounddecaltype = "armuwmex_aoplane.dds",
 		buildingMask = 0,
-		buildpic = "ARMOMEX.DDS",
+		buildpic = "ARMUWMEX.DDS",
 		buildtime = 1875,
 		canrepeat = false,
 		category = "ALL NOTLAND NOTSUB NOWEAPON NOTSHIP NOTAIR NOTHOVER SURFACE UNDERWATER",
 		corpse = "DEAD",
-		usepiececollisionvolumes = true,
-		collisionvolumeoffsets = "0 -55 0",
-		collisionvolumescales = "31 128 31",
-		collisionvolumetype = "CylY",
 		description = "Extracts Metal",
-		explodeas = "tinyBuildingExplosionGeneric-uw",
+		explodeas = "mediumBuildingexplosiongeneric",
 		extractsmetal = 0.001,
-		floater = true,
 		footprintx = 3,
 		footprintz = 3,
 		icontype = "building",
@@ -28,16 +28,14 @@
 		maxslope = 30,
 		metalstorage = 50,
 		minwaterdepth = 15,
-		name = "Offshore Metal Extractor",
-		objectname = "ARMOMEX",
-		script = "armomex.cob",
-		onoffable = true,
+		name = "Underwater Metal Extractor",
+		objectname = "ARMUWMEX",
+		onoffable = false,
 		seismicsignature = 0,
 		selfdestructcountdown = 1,
-        explodeas = "tinyBuildingExplosionGeneric-uw",
 		sightdistance = 182,
+		usebuildinggrounddecal = true,
 		yardmap = "ooooooooo",
-		waterline = 0,
 		customparams = {
 			cvBuildable = true,
 			metal_extractor = 1,
@@ -60,7 +58,7 @@
 				height = 20,
 				hitdensity = 100,
 				metal = 36,
-				object = "ARMOMEX_DEAD",
+				object = "ARMUWMEX_DEAD",
 				reclaimable = true,
 				seqnamereclamate = "TREE1RECLAMATE",
 				world = "All Worlds",
@@ -85,8 +83,8 @@
 				world = "All Worlds",
 			},
 		},
-		sfxtypes = { 
- 			pieceExplosionGenerators = { 
+		sfxtypes = {
+ 			pieceExplosionGenerators = {
 				"deathceg2",
 				"deathceg3",
 			},
@@ -109,6 +107,5 @@
 				[1] = "waterex1",
 			},
 		},
-	}
-
-return {["armuwmex"] = armseamex}
+	},
+}
